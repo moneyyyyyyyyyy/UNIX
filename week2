@@ -1,0 +1,226 @@
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ mkdir mani
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ cd
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ cd . . 
+bash: cd: too many arguments
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ /mani
+bash: /mani: No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ who
+bmscecse tty2         2022-11-15 16:53 (tty2)
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ mkdir mani
+mkdir: cannot create directory ‘mani’: File exists
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ cd mani
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ ls
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cd
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ script
+Script started, output log file is 'typescript'.
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ cd mani
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ touch chap1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ touch chap2
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ touch chap3
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ touch chap4
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ ls
+chap1  chap2  chap3  chap4
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cd chap1
+bash: cd: chap1: Not a directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cat chap1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cat >chap1
+hey bro
+whatsupp
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cat chap1
+hey bro
+whatsupp
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp chap1 chap2
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cat chap2
+hey bro
+whatsupp
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cd
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ mkdir naruto
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ cd naruto
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/naruto$ touch
+touch: missing file operand
+Try 'touch --help' for more information.
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/naruto$ touch ch1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/naruto$ touch ch2
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/naruto$ touch ch3
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/naruto$ touch ch4
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/naruto$ ls
+ch1  ch2  ch3  ch4
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/naruto$ cd mani
+bash: cd: mani: No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/naruto$ cd
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ cd mani
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp  chap1 /naruto/ch1
+cp: cannot create regular file '/naruto/ch1': No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp chap1 /naruto
+cp: cannot create regular file '/naruto': Permission denied
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ ^C
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp chap1 /bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC/naruto
+cp: cannot create regular file '/bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC/naruto': No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cd ..
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ pwd 
+/home/bmscecse
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ cd mani
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp chap1 /home/bmscecse/naruto/
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cd naruto
+bash: cd: naruto: No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cd
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ cd naruto
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/naruto$ cat ch1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/naruto$ ls
+ch1  ch2  ch3  ch4  chap1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/naruto$ cd ..
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ cd mani
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ touch boom1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ touch boom2
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ touch boom3
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ ls
+boom1  boom2  boom3  chap1  chap2  chap3  chap4
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cd
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ cd mani
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ mkdir sasuke
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cd sasuke
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani/sasuke$ cd mani
+bash: cd: mani: No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani/sasuke$ cd .. 
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp chap* /sasuke/
+cp: target '/sasuke/' is not a directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp chap* /sauke
+cp: target '/sauke' is not a directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp chap* /sasuke
+cp: target '/sasuke' is not a directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp chap* /mani/sasuke/
+cp: target '/mani/sasuke/' is not a directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp chap* /home/bmscecse/mani/sasuke
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cd sasuke
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani/sasuke$ ls
+chap1  chap2  chap3  chap4
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani/sasuke$ cd ..
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp -i 
+cp: missing file operand
+Try 'cp --help' for more information.
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp -i chap1 chap2
+cp: overwrite 'chap2'? y
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cd
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ mkdir madara
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ cd mani
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp -R /home/bmscecse/madara
+cp: missing destination file operand after '/home/bmscecse/madara'
+Try 'cp --help' for more information.
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp -R mani  /home/bmscecse/madara
+cp: cannot stat 'mani': No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp -R /mani  /home/bmscecse/madara
+cp: cannot stat '/mani': No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ 
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp -R /mani/  /home/bmscecse/madara
+cp: cannot stat '/mani/': No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp -R /home/bmscecse /mani/  /home/bmscecse/madara
+cp: cannot copy a directory, '/home/bmscecse', into itself, '/home/bmscecse/madara/bmscecse'
+cp: cannot stat '/mani/': No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cp -R /home/bmscecse/mani/  /home/bmscecse/madara
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cd
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ cd madara
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/madara$ ls
+bmscecse  mani
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/madara$ ls -a
+.  ..  bmscecse  mani
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/madara$ ls -l
+total 8
+drwxr-x--- 17 bmscecse bmscecse 4096 Nov 15 17:45 bmscecse
+drwxrwxr-x  3 bmscecse bmscecse 4096 Nov 15 17:45 mani
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/madara$ ls -la
+total 16
+drwxrwxr-x  4 bmscecse bmscecse 4096 Nov 15 17:45 .
+drwxr-x--- 17 bmscecse bmscecse 4096 Nov 15 17:43 ..
+drwxr-x--- 17 bmscecse bmscecse 4096 Nov 15 17:45 bmscecse
+drwxrwxr-x  3 bmscecse bmscecse 4096 Nov 15 17:45 mani
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/madara$ ls
+bmscecse  mani
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/madara$ cd mani
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/madara/mani$ ls
+boom1  boom2  boom3  chap1  chap2  chap3  chap4  sasuke
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/madara/mani$ rm boom1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/madara/mani$ ls
+boom2  boom3  chap1  chap2  chap3  chap4  sasuke
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/madara/mani$ rm*
+Command 'rm*' not found, did you mean:
+  command 'rmt' from deb tar (1.34+dfsg-1build3)
+  command 'rm' from deb coreutils (8.32-4.1ubuntu1)
+Try: sudo apt install <deb name>
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/madara/mani$ rm *
+rm: cannot remove 'sasuke': Is a directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/madara/mani$ cd sasuke
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/madara/mani/sasuke$ cd
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~$ cd mani
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cd sasuke
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani/sasuke$ ls
+chap1  chap2  chap3  chap4
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani/sasuke$ rm *
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani/sasuke$ ls
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani/sasuke$ cd ..
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ ls
+boom1  boom2  boom3  chap1  chap2  chap3  chap4  sasuke
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ mv boom1 zoom1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ ls
+boom2  boom3  chap1  chap2  chap3  chap4  sasuke  zoom1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cd sasuke
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani/sasuke$ cd ..
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ mv boom1 boom2 /home/bmscecse/mani/sasuke
+mv: cannot stat 'boom1': No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ mv zoom1 boom2 /home/bmscecse/mani/sasuke
+mv: cannot stat 'boom2': No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ mv chap1 /mani/sasuke/
+mv: cannot move 'chap1' to '/mani/sasuke/': No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ mv chap1 /home/bmscecse /mani/sasuke/
+mv: target '/mani/sasuke/' is not a directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ mv chap1 /home/bmscecse/mani/sasuke/
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cd sasuke
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani/sasuke$ ls
+boom2  chap1  zoom1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani/sasuke$ mv boom2 chap1 zoom1 /home/bmscecse/mani/
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani/sasuke$ cd..
+cd..: command not found
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani/sasuke$ cd ..
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ ls
+boom2  boom3  chap1  chap2  chap3  chap4  sasuke  zoom1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cs sasuke
+cs: command not found
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cd sasuke
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani/sasuke$ mv sasuke sakura
+mv: cannot stat 'sasuke': No such file or directory
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani/sasuke$ 
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani/sasuke$ cd ..
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ ls
+boom2  boom3  chap1  chap2  chap3  chap4  sasuke  zoom1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ mv sasuke sakura
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ ls
+boom2  boom3  chap1  chap2  chap3  chap4  sakura  zoom1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ file chap1
+chap1: ASCII text
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ wc -l chap1
+2 chap1
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ cat> boom2
+i am
+eren yeager
+^L
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ od boom2
+0000000 020151 066541 062412 062562 020156 062571 063541 071145
+0000020 057012 005114
+0000024
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ od -b boom2
+0000000 151 040 141 155 012 145 162 145 156 040 171 145 141 147 145 162
+0000020 012 136 114 012
+0000024
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ od -bc boom2
+0000000 151 040 141 155 012 145 162 145 156 040 171 145 141 147 145 162
+          i       a   m  \n   e   r   e   n       y   e   a   g   e   r
+0000020 012 136 114 012
+         \n   ^   L  \n
+0000024
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ script
+Script started, output log file is 'typescript'.
+bmscecse@bmscecse-HP-Elite-Tower-600-G9-Desktop-PC:~/mani$ typescript
+typescript: command not found
+
