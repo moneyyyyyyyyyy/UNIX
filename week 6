@@ -1,0 +1,197 @@
+#!/bin/bash
+#power
+echo "enter the number : "
+read n
+echo "enter the exponent : "
+read e
+b=$e
+pow=1
+while [ $e -gt 0 ]
+do
+        pow=$(($pow * $n))
+        e=$(($e - 1))
+done
+echo "the number $n raised to the exponent $b is : $pow "
+
+
+
+enter the number :
+5
+enter the exponent :
+2
+the number 5 raised to the exponent 2 is : 25
+mani@mani:~$ sh power.sh
+enter the number :
+5
+enter the exponent :
+0
+the number 5 raised to the exponent 0 is : 1
+
+
+#!/bin/sh
+#fibonacci series
+echo "Enter the number"
+read n
+a=0
+b=1
+count=2
+echo "Fibonacci Series"
+if [ $n -eq 1 ]
+then
+echo $a
+elif [ $n -eq 2 ]
+then
+echo "$a $b"
+else
+echo $a
+echo $b
+while [ $count -lt $n ]
+do
+fib=`expr $a + $b`
+a=$b
+b=$fib
+echo $fib
+count=`expr $count + 1`
+done
+fi
+
+mani@maniXPS:~$ sh fib.sh
+Enter the number
+1
+Fibonacci Series
+0
+mani@maniXPS:~$ sh fib.sh
+Enter the number
+2
+Fibonacci Series
+0 1
+mani@maniXPS:~$ sh fib.sh
+Enter the number
+5
+Fibonacci Series
+0
+1
+1
+2
+3
+
+
+#!/bin/bash
+#gcd and lcm of two numbers 
+echo "Enter two integers"
+
+read m n
+
+echo " To find GCD and LCM"
+
+echo "given two numbers are"
+
+echo "m= $m and n=$n"
+
+temp=`expr $m \* $n`
+
+while [ $m != $n ]
+
+do
+
+if [ $m -gt $n ]
+
+then
+
+m=`expr $m - $n`
+
+else
+
+n=`expr $n - $m`
+
+fi
+
+done
+
+echo GCD=$n
+
+lcm=`expr $temp / $n`
+
+echo LCM=$lcm
+
+
+mani@maniXPS:~$ nano gcdlcm.sh
+mani@maniXPS:~$ sh gcdlcm.sh
+Enter two integers
+2 8
+ To find GCD and LCM
+given two numbers are
+m= 2 and n=8
+GCD=2
+LCM=8
+
+
+
+#!/bin/bash
+#sum of n natural numbers
+echo "enter the limit : "
+read l
+sum=0
+while [ $l -gt 0 ]
+do
+sum=`expr $sum + $l`
+l=`expr $l - 1`
+done
+echo $sum
+
+mani@maniXPS:~$ sh sum.sh
+enter the limit :
+1
+1
+mani@maniXPS:~$ sh sum.sh
+enter the limit :
+0
+0
+mani@maniXPS:~$ sh sum.sh
+enter the limit :
+6
+21
+
+
+#!/bin/bash
+#for printing combinations of 1 2 3
+for i in 1 2 3
+do
+for j in 1 2 3
+do
+for k in 1 2 3
+do
+echo $i $j $k
+done
+done
+done
+
+
+bmsce@DESKTOP-LSN1E53:~$ sh patt.sh
+1 1 1
+1 1 2
+1 1 3
+1 2 1
+1 2 2
+1 2 3
+1 3 1
+1 3 2
+1 3 3
+2 1 1
+2 1 2
+2 1 3
+2 2 1
+2 2 2
+2 2 3
+2 3 1
+2 3 2
+2 3 3
+3 1 1
+3 1 2
+3 1 3
+3 2 1
+3 2 2
+3 2 3
+3 3 1
+3 3 2
+3 3 3
