@@ -1,0 +1,198 @@
+#!/bin/bash
+#program to find factorial
+echo "enter the number : "
+read n
+fact=1
+i=1
+while [ $i -le $n ]
+do
+        fact=`expr $i \* $fact`
+        i=`expr $i + 1`
+done
+echo "the factorial of $n is : $fact"
+
+mani@mani:~$ sh factorial.sh
+enter the number :
+5
+the factorial of 5 is : 120
+
+
+
+
+
+#!/bin/bash
+#program to find gross salary
+echo "enter the basic salary of the person : "
+read b
+da=`expr $b \* 10 / 100`
+hr=`expr $b \* 20 / 100`
+gr=`expr $b + $da + $hr`
+echo "the gross salary is : $gr "
+
+mani@mani:~$ sh salary.sh
+enter the basic salary of the person :
+10000
+the gross salary is : 13000
+
+
+
+#!/bin/bash
+#program to convert temperature in fahrenheit to celsius
+echo "enter the temperature in fahrenheit : "
+read f
+temp=$(($f - 32))
+c=$(($temp * 5/9))
+echo "the temperature in celsius : $c"
+
+
+bmsce@DESKTOP-LSN1E53:~$ sh temp.sh
+enter the temperature in fahrenheit :
+212
+the temperature in celsius : 100
+
+
+#!/bin/bash
+#to perform arithmetic operations on two numbers using case
+echo "enter the first number : "
+read num1
+echo "enter the second number : "
+read num2
+echo "choose the arithmetic operation :
+1. addition
+2. subtraction
+3. multiplication
+4. division
+5. quit"
+read choice
+case $choice in
+1)echo "the sum is `expr $num1 + $num2`";;
+2)echo "the difference is `expr $num1 - $num2`";;
+3)echo "the product is `expr $num1 \* $num2`";;
+4)echo "the quotient is `expr $num1 / $num2`";;
+5)exit;;
+esac
+
+mani@manihXPS:~$ sh arithmetic.sh
+enter the first number :
+5
+enter the second number :
+5
+choose the arithmetic operation :
+1. addition
+2. subtraction
+3. multiplication
+4. division
+5. quit
+4
+the quotient is 1
+
+
+#!/bin/bash
+#to find sum of even natural numbers till n
+echo "enter the limit n : "
+read n
+echo "enter the start limit : "
+read i
+sum=0
+while [ $i -le $n ]
+do
+        sum=`expr $i + $sum`
+        i=`expr $i + 2`
+done
+echo "the sum is : $sum"
+
+bmsce@DESKTOP-LSN1E53:~$ sh even.sh
+enter the limit n :
+10
+enter the start limit :
+4
+the sum is : 28
+
+
+                                                                                                   print.sh                                                                                                                 #!/bin/bash
+echo "enter your option
+1. print numbers from 1-5
+2.print numbers from 5-10"
+read choice
+case $choice in
+1)i=1
+echo "the printed list is : "
+while [ $i -le 5 ]
+do
+        echo "$i"
+        i=`expr $i + 1`
+done;;
+2)i=5
+echo "the printed list is : "
+while [ $i -le 10 ]
+do
+        echo "$i"
+        i=`expr $i + 1`
+done;;
+*)exit;;
+esac
+
+
+bmsce@DESKTOP-LSN1E53:~$ sh print.sh
+enter your option
+1. print numbers from 1-5
+2.print numbers from 5-10
+1
+the printed list is :
+1
+2
+3
+4
+5
+bmsce@DESKTOP-LSN1E53:~$ nano print.sh
+bmsce@DESKTOP-LSN1E53:~$ sh print.sh
+enter your option
+1. print numbers from 1-5
+2.print numbers from 5-10
+2
+the printed list is :
+5
+6
+7
+8
+9
+10
+bmsce@DESKTOP-LSN1E53:~$ nano print.sh
+bmsce@DESKTOP-LSN1E53:~$ sh print.sh
+enter your option
+1. print numbers from 1-5
+2.print numbers from 5-10
+3
+
+
+
+#!/bin/bash
+answer='y'
+while [ "$answer" = "y" ]
+do
+echo "enter the code and description "
+read code;read des
+echo "$code | $des"
+echo "enter anymore? (y/n) :"
+read anymore
+case $anymore in
+y*|Y*)answer='y';;
+n*|N*)exit;;
+*)answer='y';;
+esac
+done
+
+
+bmsce@DESKTOP-LSN1E53:~$ sh des.sh
+enter the code and description
+code
+description
+code | description
+enter anymore? (y/n) :
+y
+enter the code and description
+c
+d
+c | d
+enter anymore? (y/n) :
+n
